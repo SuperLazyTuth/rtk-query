@@ -120,6 +120,38 @@ function Login() {
         </div>
       </div>
 
+      <div className="flex -mx-3 mb-6 items-center w-full px-3">
+        <input
+          id="phone-checkbox"
+          type="checkbox"
+          value=""
+          className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2"
+        />
+        <label
+          htmlFor="phone-checkbox"
+          className="ml-2 text-gray-700 text-xs font-bold uppercase"
+        >
+          Do you have a phone ?
+        </label>
+      </div>
+
+      <div className="flex flex-wrap -mx-3 mb-6">
+        <div className="w-full px-3">
+          <label
+            className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            htmlFor="phone"
+          >
+            Phone Number
+          </label>
+          <input
+            className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="phone"
+            type="phone"
+            placeholder="Phone number"
+          />
+        </div>
+      </div>
+
       <div className="flex flex-wrap -mx-3 mb-6 px-3 justify-center">
         <button className="w-full focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
           Save
